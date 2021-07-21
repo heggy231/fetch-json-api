@@ -47,3 +47,11 @@ list.slice(0, 3)
 var size = 50; // first 50 img
 var photoItems = this.state.photos.slice(0, size).map(...)
 ```
+
+## part 2 fetching photo only component
+
+* Create PhotoList Component to display Photos
+  - You pass the data from parent App to child PhotoList.
+  - reusability concern we divide work.
+  Only job for PhotoList is to display photos.
+  The pare App is responsible for fetching data.
